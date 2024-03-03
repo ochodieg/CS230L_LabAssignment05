@@ -1,23 +1,33 @@
 import logo from './logo.svg';
+//import './Navbar.js';
 import './App.css';
+//import navbar from './Navbar.js';
+//const navbar =(<Navbar/>);
+import Navbarz from'./Navbarz.js';
+import CardContainer from './Card.js'
+
+/*
+// this doesn't work
+const displayElement = (
+  <div className="App">
+    <Navbarz />
+  <h1>CS 230L</h1>
+  <h2>Section - 02</h2>
+  <p>WVU ID: 800401291</p>
+  <p>Hi I am D. Ivan Ochoa</p>
+</div>
+);
+*/
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Navbarz />
+    <h1>CS 230L</h1>
+    <h2>Section - 02</h2>
+    <p>WVU ID: 800401291</p>
+    <p>Hi I am D. Ivan Ochoa</p>
+    <CardContainer />
     </div>
   );
 }

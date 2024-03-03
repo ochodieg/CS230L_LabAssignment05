@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+//import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
+//import Navbarz from'./Navbarz.js';
+import 'bootstrap/dist/css/bootstrap.css'; // imports css for the navbar
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

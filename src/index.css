@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  /*color: white;   // this aint doing shit*/
+}
+
+/*
+//trying to set the text color of all cards to white
+// but none of these work here or on custom css file imported to card.js
+.card-text,
+.card-title,
+.card-header {
+color: white;
+}
+.card-body,.card-title{
+  color: white;
+}
+
+
+// tried to set all of cards text to white using a custom class. no workie
+.custom-card-text {
+  color: white;  
+}
+
+// the only way to set all of card text color is by using inline css???
+*/
